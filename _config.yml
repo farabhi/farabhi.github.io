@@ -1,0 +1,27 @@
+title: Vlad Navitski
+description: >-
+  Software engineer. Notes on reinforcement learning, scientific computing,
+  and the reproducibility problems that come with them.
+author: Vlad Navitski
+
+url: "https://farabhi.github.io"
+baseurl: ""
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    github: farabhi
+    linkedin: vlad-navitski-59807420
+
+# Files Jekyll should ignore
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
